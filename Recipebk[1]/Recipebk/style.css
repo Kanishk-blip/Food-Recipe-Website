@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121045;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.search input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.recipes, .recipes-list, .about, .contact {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.recipes h2, .about h2, .contact h2, .recipes-list h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.recipe-item {
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.recipe-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.recipe-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.recipe-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.recipe-item a {
+    color: #fff;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.recipe-item a:hover {
+    background-color: #0056b3;
+}
+
+.about .container, .contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
